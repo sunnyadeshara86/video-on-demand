@@ -239,7 +239,7 @@ export const Sidebar = () => {
         <br /> Test new features
       </span>
       <br />
-      <p className="text-xs text-gray-500 mt-3">© 2024 Learn Coding</p>
+      <p className="text-xs text-gray-500 mt-3">© 2024 Sunny Adeshara</p>
     </div>
   );
 }
