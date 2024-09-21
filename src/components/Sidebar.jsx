@@ -1,5 +1,4 @@
 import React from "react";
-
 import { GoHome } from "react-icons/go";
 import { SiYoutubeshorts } from "react-icons/si";
 import { MdOutlineSubscriptions, MdHistory } from "react-icons/md";
@@ -24,8 +23,7 @@ import { SiStylelint } from "react-icons/si";
 import { MdPodcasts } from "react-icons/md";
 import { BiVideo } from "react-icons/bi";
 import { GiLinkedRings } from "react-icons/gi";
-
-export const Sidebar = () => {
+function Sidebar() {
   const sidebarItems = [
     {
       id: 1,
@@ -239,7 +237,9 @@ export const Sidebar = () => {
         <br /> Test new features
       </span>
       <br />
-      <p className="text-xs text-gray-500 mt-3">© 2024 Learn Coding</p>
+      <p className="text-xs text-gray-500 mt-3">© 2024 Sunny Adeshara</p>
     </div>
   );
 }
+
+export default Sidebar;
